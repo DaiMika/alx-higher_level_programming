@@ -1,6 +1,15 @@
 #!/usr/bin/python3
-class LockedClass:
-    __slots__ = ['first_name']
+""" A class with no class or obj attr...
 
-    def __init__(self, first_name=''):
-        self.first_name = first_name
+that prevents user: from creating new instance attribute
+
+except: if the new instance attribute is called first_name
+
+"""
+
+
+class LockedClass:
+    """ A class that prevent instance and only allow instance
+    with the attribute: first_name
+    """
+    __slots__ = ["first_name"]
