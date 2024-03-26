@@ -2,22 +2,6 @@
 SQL
 MySQL
 
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-General
-What’s a database
-What’s a relational database
-What does SQL stand for
-What’s MySQL
-How to create a database in MySQL
-What does DDL and DML stand for
-How to CREATE or ALTER a table
-How to SELECT data from a table
-How to INSERT, UPDATE or DELETE data
-What are subqueries
-How to use MySQL functions
-
 Requirements
 General
 Allowed editors: vi, vim, emacs
@@ -28,7 +12,6 @@ All your files should start by a comment describing the task
 All SQL keywords should be in uppercase (SELECT, WHERE…)
 A README.md file, at the root of the folder of the project, is mandatory
 The length of your files will be tested using wc
-
 More Info
 Comments for your SQL file:
 $ cat my_script.sql
@@ -80,3 +63,5 @@ performance_schema
 sys                      
 $
 In the container, credentials are root/root
+
+
